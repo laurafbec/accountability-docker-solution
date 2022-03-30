@@ -19,4 +19,4 @@ MongoDB Atlas (version 5.0.6 Enterprise)
 Docker-compose (version 1.26.0)
 
 # Installation
-Dependencies can be installed 
+Dependencies can be installed with [a link]https://github.com/inflfb00/accountability-docker-solution/blob/main/setup.sh
