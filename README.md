@@ -24,3 +24,5 @@ The kernel headers must be installed in the host operating system, before runnin
 
 # Configuration and usage
 
+## Scenario i. ROS logging engine
+
