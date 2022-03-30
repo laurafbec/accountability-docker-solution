@@ -3,9 +3,15 @@ This repository includes a Docker-based accountability solution based on Sysdig,
 
 # Components
 Sysdig (version 0.28.0)
+
 Librdkafka (version 1.7.0)
+
 Zookeeper (version 7.0.1)
+
 Kafka (version 7.0.1)
+
 Kafka-connect (version 7.0.1)
+
 MongoDB (version 5.0.5)
+
 MongoDB Atlas (version 5.0.6 Enterprise)
