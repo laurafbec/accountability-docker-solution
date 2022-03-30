@@ -26,6 +26,12 @@ The kernel headers must be installed in the host operating system, before runnin
 
 ## Scenario i. ROS logging engine
 
-
 ## Scenario ii. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local)
+
+## Scenario iii. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB
+
+## Scenario iv. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local) with TLSv1.3
+
+## Scenario v. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
+
 
