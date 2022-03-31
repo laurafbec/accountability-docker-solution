@@ -35,7 +35,7 @@ MongoDB connection URI value must be assigned to the connection.uri property in 
 ```
 mongodb://root:admin@mongo:27017/admin?ssl=true
 ```
-Accountability solution usage:
+The scenario can be reproduced by running
 ```
 docker-compose -f docker-compose-tls.yml up -d
 ```
