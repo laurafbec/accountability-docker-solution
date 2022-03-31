@@ -39,7 +39,7 @@ The scenario can be deployed by running
 ```
 docker-compose -f docker-compose-tls.yml up -d
 ```
-ROS execution can be started by running from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros)
+ROS execution can be started from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros) by running
 ```
 docker-compose up
 ```
