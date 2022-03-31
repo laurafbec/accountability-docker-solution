@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2022-03-29 18:49:42,329: init_node, name[/listener_57_1648579782296], pid[57]
+[xmlrpc][INFO] 2022-03-29 18:49:42,329: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-03-29 18:49:42,329: Started XML-RPC server [http://f8dd39f422c2:45883/]
+[rospy.init][INFO] 2022-03-29 18:49:42,329: ROS Slave URI: [http://f8dd39f422c2:45883/]
+[rospy.impl.masterslave][INFO] 2022-03-29 18:49:42,330: _ready: http://f8dd39f422c2:45883/
+[rospy.registration][INFO] 2022-03-29 18:49:42,330: Registering with master node http://roscore:11311
+[xmlrpc][INFO] 2022-03-29 18:49:42,330: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-03-29 18:49:42,430: registered with master
+[rospy.rosout][INFO] 2022-03-29 18:49:42,430: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-03-29 18:49:42,434: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-03-29 18:49:42,434: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-03-29 18:49:42,650: topic[/chatter] adding connection to [http://bc0496513e88:33405/], count 0
+[rospy.internal][INFO] 2022-03-29 18:49:42,690: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-03-29 18:52:19,095: topic[/chatter] removing connection to http://bc0496513e88:33405/
