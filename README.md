@@ -35,10 +35,11 @@ MongoDB connection URI value must be assigned to the connection.uri property in 
 ```
 mongodb://root:admin@mongo:27017/admin?ssl=true
 ```
-The scenario can be reproduced by running
+The scenario can be deployed by running
 ```
 docker-compose -f docker-compose-tls.yml up -d
 ```
+ROS execution 
 ## Scenario v. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
 
 
