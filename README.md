@@ -23,7 +23,7 @@ Dependencies can be installed with [setup.sh](https://github.com/inflfb00/accoun
 The kernel headers must be installed in the host operating system, before running sysdig.
 
 # Configuration and usage
-
+Host IP must be set in the Docker environment variable BROKER_KAFKA_ADVERTISED_HOST_NAME, defined in [.env](https://github.com/inflfb00/accountability-docker-solution/blob/main/.env#L13)
 ## Scenario i. ROS logging engine
 
 ## Scenario ii. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local)
