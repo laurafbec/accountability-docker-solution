@@ -1,0 +1,34 @@
+[rosmaster.main][INFO] 2022-03-21 16:42:43,732: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-03-21 16:42:43,732: Starting ROS Master Node
+[xmlrpc][INFO] 2022-03-21 16:42:43,735: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-03-21 16:42:43,735: Started XML-RPC server [http://381b6bca9ed1:11311/]
+[xmlrpc][INFO] 2022-03-21 16:42:43,735: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-03-21 16:42:43,739: Master initialized: port[11311], uri[http://381b6bca9ed1:11311/]
+[rosmaster.master][INFO] 2022-03-21 16:42:43,810: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-03-21 16:42:43,811: +PARAM [/roslaunch/uris/host_381b6bca9ed1__41307] by /roslaunch
+[rosmaster.master][INFO] 2022-03-21 16:42:43,881: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-21 16:42:43,881: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-21 16:42:43,945: +SERVICE [/rosout/get_loggers] /rosout http://381b6bca9ed1:41701/
+[rosmaster.master][INFO] 2022-03-21 16:42:43,946: +SERVICE [/rosout/set_logger_level] /rosout http://381b6bca9ed1:41701/
+[rosmaster.master][INFO] 2022-03-21 16:42:43,955: +PUB [/rosout_agg] /rosout http://381b6bca9ed1:41701/
+[rosmaster.master][INFO] 2022-03-21 16:42:43,977: +SUB [/rosout] /rosout http://381b6bca9ed1:41701/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,660: +PUB [/chatter] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,751: +PUB [/rosout] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,754: +SERVICE [/talker_1_1647880969623/get_loggers] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,755: +SERVICE [/talker_1_1647880969623/set_logger_level] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,796: +PUB [/rosout] /listener_196_1647880969672 http://6101093fe48c:42367/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,798: +SERVICE [/listener_196_1647880969672/get_loggers] /listener_196_1647880969672 http://6101093fe48c:42367/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,799: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://94dc90ae02e2:44307/']
+[rosmaster.master][INFO] 2022-03-21 16:42:49,822: +SERVICE [/listener_196_1647880969672/set_logger_level] /listener_196_1647880969672 http://6101093fe48c:42367/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,824: +SUB [/chatter] /listener_196_1647880969672 http://6101093fe48c:42367/
+[rosmaster.master][INFO] 2022-03-21 16:42:49,829: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://94dc90ae02e2:44307/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-21 16:42:49,829: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://94dc90ae02e2:44307/', 'http://6101093fe48c:42367/']
+[rosmaster.master][INFO] 2022-03-21 16:42:49,833: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://94dc90ae02e2:44307/', 'http://6101093fe48c:42367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-21 16:47:12,126: -PUB [/chatter] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:47:12,126: -PUB [/rosout] /talker_1_1647880969623 http://94dc90ae02e2:44307/
+[rosmaster.master][INFO] 2022-03-21 16:47:12,126: -SERVICE [/talker_1_1647880969623/get_loggers] /talker_1_1647880969623 rosrpc://94dc90ae02e2:43909
+[rosmaster.master][INFO] 2022-03-21 16:47:12,126: -SERVICE [/talker_1_1647880969623/set_logger_level] /talker_1_1647880969623 rosrpc://94dc90ae02e2:43909
+[rosmaster.master][INFO] 2022-03-21 16:47:12,163: publisherUpdate[/chatter] -> http://6101093fe48c:42367/ []
+[rosmaster.master][INFO] 2022-03-21 16:47:12,164: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://6101093fe48c:42367/']
+[rosmaster.master][INFO] 2022-03-21 16:47:12,185: publisherUpdate[/chatter] -> http://6101093fe48c:42367/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-21 16:47:12,186: publisherUpdate[/rosout] -> http://381b6bca9ed1:41701/ ['http://6101093fe48c:42367/']: sec=0.02, result=[1, '', 0]

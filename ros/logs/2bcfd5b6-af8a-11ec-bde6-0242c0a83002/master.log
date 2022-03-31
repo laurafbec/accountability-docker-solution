@@ -1,0 +1,36 @@
+[rosmaster.main][INFO] 2022-03-29 18:00:54,571: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-03-29 18:00:54,571: Starting ROS Master Node
+[xmlrpc][INFO] 2022-03-29 18:00:54,574: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-03-29 18:00:54,574: Started XML-RPC server [http://b1c5323d054a:11311/]
+[xmlrpc][INFO] 2022-03-29 18:00:54,574: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-03-29 18:00:54,575: Master initialized: port[11311], uri[http://b1c5323d054a:11311/]
+[rosmaster.master][INFO] 2022-03-29 18:00:54,659: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 18:00:54,661: +PARAM [/roslaunch/uris/host_b1c5323d054a__38531] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 18:00:54,771: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 18:00:54,771: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-29 18:00:54,857: +SERVICE [/rosout/get_loggers] /rosout http://b1c5323d054a:35305/
+[rosmaster.master][INFO] 2022-03-29 18:00:54,858: +SERVICE [/rosout/set_logger_level] /rosout http://b1c5323d054a:35305/
+[rosmaster.master][INFO] 2022-03-29 18:00:54,859: +PUB [/rosout_agg] /rosout http://b1c5323d054a:35305/
+[rosmaster.master][INFO] 2022-03-29 18:00:54,868: +SUB [/rosout] /rosout http://b1c5323d054a:35305/
+[rosmaster.master][INFO] 2022-03-29 18:01:02,353: +PUB [/rosout] /listener_47_1648576862310 http://f8dd39f422c2:40675/
+[rosmaster.master][INFO] 2022-03-29 18:01:02,359: +SERVICE [/listener_47_1648576862310/get_loggers] /listener_47_1648576862310 http://f8dd39f422c2:40675/
+[rosmaster.master][INFO] 2022-03-29 18:01:02,360: +SERVICE [/listener_47_1648576862310/set_logger_level] /listener_47_1648576862310 http://f8dd39f422c2:40675/
+[rosmaster.master][INFO] 2022-03-29 18:01:02,360: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/']
+[rosmaster.master][INFO] 2022-03-29 18:01:02,412: +SUB [/chatter] /listener_47_1648576862310 http://f8dd39f422c2:40675/
+[rosmaster.master][INFO] 2022-03-29 18:01:02,421: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 18:01:04,004: +PUB [/chatter] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:01:04,026: publisherUpdate[/chatter] -> http://f8dd39f422c2:40675/ ['http://bc0496513e88:41999/']
+[rosmaster.master][INFO] 2022-03-29 18:01:04,031: publisherUpdate[/chatter] -> http://f8dd39f422c2:40675/ ['http://bc0496513e88:41999/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 18:01:04,103: +PUB [/rosout] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:01:04,105: +SERVICE [/talker_1_1648576863985/get_loggers] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:01:04,106: +SERVICE [/talker_1_1648576863985/set_logger_level] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:01:04,132: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/', 'http://bc0496513e88:41999/']
+[rosmaster.master][INFO] 2022-03-29 18:01:04,133: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/', 'http://bc0496513e88:41999/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 18:17:44,107: -PUB [/chatter] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:17:44,107: -PUB [/rosout] /talker_1_1648576863985 http://bc0496513e88:41999/
+[rosmaster.master][INFO] 2022-03-29 18:17:44,108: -SERVICE [/talker_1_1648576863985/get_loggers] /talker_1_1648576863985 rosrpc://bc0496513e88:41449
+[rosmaster.master][INFO] 2022-03-29 18:17:44,108: -SERVICE [/talker_1_1648576863985/set_logger_level] /talker_1_1648576863985 rosrpc://bc0496513e88:41449
+[rosmaster.master][INFO] 2022-03-29 18:17:44,113: publisherUpdate[/chatter] -> http://f8dd39f422c2:40675/ []
+[rosmaster.master][INFO] 2022-03-29 18:17:44,114: publisherUpdate[/chatter] -> http://f8dd39f422c2:40675/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-29 18:17:44,114: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/']
+[rosmaster.master][INFO] 2022-03-29 18:17:44,114: publisherUpdate[/rosout] -> http://b1c5323d054a:35305/ ['http://f8dd39f422c2:40675/']: sec=0.00, result=[1, '', 0]
