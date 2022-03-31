@@ -39,7 +39,10 @@ The scenario can be deployed by running
 ```
 docker-compose -f docker-compose-tls.yml up -d
 ```
-ROS execution 
+ROS execution from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros) can be started by running
+```
+docker-compose up
+```
 ## Scenario v. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
 
 
