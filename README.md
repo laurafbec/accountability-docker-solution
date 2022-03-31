@@ -31,7 +31,7 @@ The kernel headers must be installed in the host operating system, before runnin
 ## Scenario iii. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB
 
 ## Scenario iv. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local) with TLSv1.3
-
+MongoDB connection URI value should be modified in the file [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in the script [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the connector creation.
 ```
 docker-compose -f docker-compose-tls.yml up
 ```
