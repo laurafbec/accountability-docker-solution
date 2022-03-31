@@ -43,7 +43,7 @@ ROS execution can be started by running from [ROS folder](https://github.com/inf
 ```
 docker-compose up
 ```
-Calls to loginfo() method should be commented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py).
+Calls to loginfo() method should be commented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py#L54).
 
 ## Scenario v. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
 
