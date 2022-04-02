@@ -39,11 +39,13 @@ The scenario can be deployed by running
 ```
 docker-compose -f docker-compose-tls.yml up -d
 ```
-ROS execution can be started from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros) by running
+ROS Docker image and workspace folder must be created by running [init_ros.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/ros/init_ros.sh).
+Calls to loginfo() method should be commented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py#L50) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py#L54).
+ROS execution can be started from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros) by running. 
 ```
 docker-compose up
 ```
-Calls to loginfo() method should be commented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py#L50) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py#L54).
+
 
 ## Scenario v. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
 
