@@ -27,7 +27,8 @@ Host IP must be set in the Docker environment variable BROKER_KAFKA_ADVERTISED_H
 ## Scenario i. ROS logging engine
 
 ## Scenario ii. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local)
-Replace [producer.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer.cpp) with [producer-nossl.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer-nossl.cpp)
+Replace [producer.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer.cpp) with [producer-nossl.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer-nossl.cpp) to avoid TLS configuration.
+
 MongoDB connection URI value must be assigned to the connection.uri property in [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the Kafka-MongoDB connector creation. For this scenario, this value should be equal to
 ```
 mongodb://root:admin@mongo:27017
