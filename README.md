@@ -33,7 +33,7 @@ mongodb://root:admin@mongo:27017
 ```
 The scenario can be deployed by running
 ```
-docker-compose -f docker-compose-tls-atlas.yml up -d
+docker-compose -f docker-compose-notls.yml up -d
 ```
 ROS Docker image and workspace folder must be created by running [init_ros.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/ros/init_ros.sh).
 Calls to loginfo() method should be commented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py#L50) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py#L54).
