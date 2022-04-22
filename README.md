@@ -30,7 +30,7 @@ To enable TLS support, self-signed certificates, keystores and truststores can b
 
 To study autonomous systems different from ROS framework, audited processes and syscalls can be specified in [settings.lua](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/settings.lua)
 
-## Scenario 1. ROS logging engine
+## Scenario I. ROS logging engine
 ROS Docker image and workspace folder must be created by running [init_ros.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/ros/init_ros.sh).
 Calls to loginfo() method should be uncommented in [talker.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/talker.py#L50) and in [listener.py](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros/src/listener.py#L54).
 ROS execution can be started from [ROS folder](https://github.com/inflfb00/accountability-docker-solution/tree/main/ros) by running. 
@@ -38,7 +38,7 @@ ROS execution can be started from [ROS folder](https://github.com/inflfb00/accou
 docker-compose up
 ```
 
-## Scenario 2. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local)
+## Scenario II. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local)
 Replace [producer.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer.cpp) with [producer-nossl.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer-nossl.cpp) to avoid TLS configuration.
 
 MongoDB connection URI value must be assigned to the connection.uri property in [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the Kafka-MongoDB connector creation. For this scenario, this value should be equal to
@@ -57,7 +57,7 @@ docker-compose up
 ```
 
 
-## Scenario 3. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB
+## Scenario III. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB
 Replace [producer.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer.cpp) with [producer-nossl.cpp](https://github.com/inflfb00/accountability-docker-solution/blob/main/librdkafka-producer/src/producer-nossl.cpp) to avoid TLS configuration.
 
 MongoDB connection URI value must be assigned to the connection.uri property in [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the Kafka-MongoDB connector creation. For this scenario, this value should be equal to
@@ -76,7 +76,7 @@ docker-compose up
 ```
 
 
-## Scenario 4. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local) with TLSv1.3
+## Scenario IV. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and MongoDB (local) with TLSv1.3
 MongoDB connection URI value must be assigned to the connection.uri property in [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the Kafka-MongoDB connector creation. For this scenario, this value should be equal to
 ```
 mongodb://root:admin@mongo:27017/admin?ssl=true
@@ -92,7 +92,7 @@ ROS execution can be started from [ROS folder](https://github.com/inflfb00/accou
 docker-compose up
 ```
 
-## Scenario 5. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
+## Scenario V. Zookeeper, Kafka broker, Kafka connect, Librdkafka producer with Sysdig and Atlas MongoDB with TLSv1.3
 MongoDB connection URI value must be assigned to the connection.uri property in [MongoSinkConnector.properties](https://github.com/inflfb00/accountability-docker-solution/blob/main/mongodb-kafka-connect/etc/MongoSinkConnector.properties) from Kafka connect, and in [sink-connect.sh](https://github.com/inflfb00/accountability-docker-solution/blob/main/kafka/scripts/sink-connect.sh) for the Kafka-MongoDB connector creation. For this scenario, this value should be equal to
 ```
 mongodb+srv://root:admin@cluster0.ecipx.mongodb.net/admin?ssl=true
